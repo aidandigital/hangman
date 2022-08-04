@@ -1,0 +1,55 @@
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+/* Import AD Icon */
+@import url('https://cdn.aidandigital.com/ad-icon/css/fontello-embedded.css');
+
+.guessed {
+  text-transform: uppercase;
+}
+
+.input {
+  letter-spacing: 3px !important;
+  font-size: 20px;
+  word-spacing: 7px;
+}
+
+.body-cont {
+  text-align: center;
+  margin: 3% auto;
+  min-width: 50%;
+  width: fit-content;
+  padding: 5%;
+  border-radius: 3.5px;
+  background-color: rgb(238, 208, 162);
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: .85em;
+  font-family: sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.icon-ad {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+a {
+  color: rgb(44, 89, 250);
+}
