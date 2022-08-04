@@ -38,13 +38,15 @@ h1 {
 footer {
   position: fixed;
   bottom: 0px;
-  margin-bottom: 40px;
+  background-color: white;
+  padding-bottom: 40px;
   text-align: center;
   font-size: .85em;
   font-family: sans-serif;
   display: flex;
   width: 100%;
   justify-content: center;
+  font-size: 14px;
 }
 
 .icon-ad {
@@ -59,6 +61,17 @@ footer {
 
 a {
   color: rgb(44, 89, 250);
+}
+
+@media screen and (max-width: 700px) {
+  .icon-ad {
+    display: none;
+  }
+
+  footer {
+    padding: 8px 0px;
+    font-size: 12px;
+  }
 }
 
 /* No JS Banner */
